@@ -1,0 +1,33 @@
+{
+  "dir": "ltr",
+  "lang": "English",
+  "name": "Get a Grip",
+  "short_name": "Get a Grip",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "transparent",
+  "theme_color": "transparent",
+  "description": "",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/shaking-hands-colored-48.png",
+      "sizes": "48x48",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/shaking-hands-colored-48@2x.png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/shaking-hands-colored-48@4x.png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": []
+}
