@@ -42,6 +42,9 @@ export class GetGrip extends LitElement {
 
       p {
         font-size: 2rem;
+        line-height: 0.5;
+        padding-bottom: 0.5rem !important;
+        border-bottom: 1px solid white;
       }
 
       button {
@@ -192,7 +195,7 @@ export class GetGrip extends LitElement {
                     current force:
                     ${this.gameRunning
                       ? `${formatToPounds(player.currentValue)} lbs`
-                      : 0}
+                      : `0.00 lbs`}
                   </p>
                   <p>max force: ${formatToPounds(player.maxValue)} lbs</p>
                 </div>
@@ -203,7 +206,7 @@ export class GetGrip extends LitElement {
             ${this.winners.length ? html`${this.winners[0].name} wins!` : ""}
           </h2>
           <button class="connect-device" @click="${this.connectDevice}">
-            connect sensor to add player
+            pair sensor + add player
           </button>
         </main>
         <footer>
