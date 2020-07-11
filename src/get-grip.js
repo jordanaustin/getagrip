@@ -63,7 +63,9 @@ export class GetGrip extends LitElement {
       }
 
       h1 {
-        font-family: "Anton", sans-serif;
+        font-family: "Anton", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol";
         font-weight: bolder;
         font-size: min(23vw, 16rem);
         opacity: 0.8;
